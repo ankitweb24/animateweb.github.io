@@ -1,0 +1,466 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-----header-part start-->
+    <div class="header-part">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <img src="images/logo.png" alt="" class="img-logo animated rotateOutDownLeft">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">
+                    <i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#crdid"><i class="fa fa-cubes" aria-hidden="true"></i> staff</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#crd-id"><i class="fa fa-address-card-o" aria-hidden="true"></i> cards</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#serid"><i class="fa fa-folder-open" aria-hidden="true"></i> services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contactid"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutid"><i class="fa fa-question-circle" aria-hidden="true"></i> about</a>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+          <div class="center-part">
+              <div class="container">
+                 <div class="row">
+                     <div class="col-lg-6 col-md-6 col-12 first-center-part">
+                        <h3 class="text-center text-uppercase"><span class="main-head">AJ</span>_webkit</h3>
+                        <p class="text-center text-uppercase">welcome our webkit!thank you!(:</p>
+                        <a href=""data-toggle="modal" data-target="#myModal">portfolio</a>
+                        <div class="loader">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-md-6 col-12 second-center-part">
+                        <img src="images/swe.png" alt="" class="img-fluid">
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+                  <!-- The slideshow -->
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <h4 class="text-center text-uppercase text-info">devlopment</h4>
+                            <p class="text-center text-capitalize">html & css project
+                              <br>javascript project
+                            </p>
+                            </div>
+                            <div class="carousel-item">
+                              <h4 class="text-center text-uppercase text-info">project impliment</h4>
+                            <p class="text-center text-capitalize">php & wordpress project
+                              <br>python
+                            </p>
+                            </div>
+                            <div class="carousel-item">
+                              <h4 class="text-center text-uppercase text-info">sql</h4>
+                              <p class="text-center text-capitalize">my sq
+                                <br>no sql
+                              </p>
+                            </div>
+                          </div>                      
+                        </div>
+                     </div>
+                 </div>
+              </div>
+          </div>
+    </div>
+    <!-----header-part end-->
+     <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">sing-up</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="username">username:</label>
+              <input type="email" class="form-control" placeholder="username" id="email">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" placeholder="Enter email" id="email">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+            </div>
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox"> Remember me
+              </label>
+            </div>
+            <div class="ft-btn">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+    <!-----staff-part start-->
+    <section class="crd-part" id="crdid">
+      <div class="container py-5">
+        <h3 class="text-center text-uppercase text-info"><i class="fa fa-cubes" aria-hidden="true"></i> meet our expert</h3>
+        <div class="row animated zoomIn">
+          <div class="col-lg-4 col-md-4 col-12">
+             <!-- Swiper -->
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(images/staff/one.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/staff/two.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/staff/three.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/staff/four.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/staff/five.png)"></div>
+                  </div>
+                  <h5 class="text-center text-uppercase">stylish graphy</h5>
+                </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <!-- Swiper -->
+               <div class="swiper-container">
+                 <div class="swiper-wrapper">
+                   <div class="swiper-slide" style="background-image:url(images/staff/six.jpg)"></div>
+                   <div class="swiper-slide" style="background-image:url(./images/staff/seven.png)"></div>
+                   <div class="swiper-slide" style="background-image:url(./images/staff/eight.jpg)"></div>
+                   <div class="swiper-slide" style="background-image:url(./images/staff/nine.jpg)"></div>
+                   <div class="swiper-slide" style="background-image:url(./images/staff/ten.png)"></div>
+                 </div>
+                 <h5 class="text-center text-uppercase">programmer</h5>
+               </div>
+         </div>
+         <div class="col-lg-4 col-md-4 col-12">
+          <!-- Swiper -->
+             <div class="swiper-container">
+               <div class="swiper-wrapper">
+                 <div class="swiper-slide" style="background-image:url(images/staff/eleven.jpg)"></div>
+                 <div class="swiper-slide" style="background-image:url(./images/staff/twelve.jpg)"></div>
+                 <div class="swiper-slide" style="background-image:url(./images/staff/tharteen.png)"></div>
+                 <div class="swiper-slide" style="background-image:url(./images/staff/fourteen.png)"></div>
+                 <div class="swiper-slide" style="background-image:url(./images/staff/fifteen.png)"></div>
+               </div>
+               <h5 class="text-center text-uppercase">full stack</h5>
+             </div>
+       </div>
+        </div>
+      </div>
+    </section>
+    <!-----staff-part end-->
+
+    <!--grouth team part start-->
+    <section class="chart-part">
+      <div class="container py-5">
+        <h3 class="text-center text-uppercase text-info"><i class="fa fa-users" aria-hidden="true"></i> marketing grouth</h3>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12 chart-part-first">
+            <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+            <p class="text-center text-capitalize text-success">A collection of cool libraries and web experiments that will help JavaScript developers make their first steps in machine learning.</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12 chart-part-second">
+            <img src="images/first.gif" alt="" class="img-fluid">
+           <div class="over-icons">
+             <a href="//www.facebook.com/Aj-web-109466773973180/?modal=admin_todo_tour" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+             <a href="https://www.instagram.com/ankitjangir18/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+             <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+             <a href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+             <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--grouth team part end-->
+
+    <!--card start-->
+    <section class="card-delay" id="crd-id">
+      <div class="container py-5">
+        <h3 class="text-center text-uppercase text-info"><i class="fa fa-address-card-o" aria-hidden="true"></i> card delay</h3>
+        <p class="text-center text-capitalize text-info">beautifull delaying</p>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="main-container">
+              <div class="card">
+                <div class="front-side">
+                  <img src="images/card/first-card.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="back-side">
+                  <i class="fa fa-laptop" aria-hidden="true"></i>
+                  <h2 class="text-center text-uppercase">skills</h2>
+                  <p class="text-center text-uppercase">web deginers
+                    <br> devlopers <br> full stack
+                  </p>
+                  <a href="">projects</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="main-container">
+              <div class="card">
+                <div class="front-side">
+                  <img src="images/card/second-card.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="back-side">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+                  <h2 class="text-center text-uppercase">software</h2>
+                  <p class="text-center text-uppercase">deginers
+                    <br> anylisist <br> ceo
+                  </p>
+                  <a href="">projects</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="main-container">
+              <div class="card">
+                <div class="front-side">
+                  <img src="images/card/third-card.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="back-side">
+                  <i class="fa fa-globe" aria-hidden="true"></i>
+                  <h2 class="text-center text-uppercase">community</h2>
+                  <p class="text-center text-uppercase">planing
+                    <br> ideas <br> browsing
+                  </p>
+                  <a href="">projects</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--card end-->
+
+    <!----services part start-->
+    <section class="service" id="serid">
+      <div class="container py-5">
+        <h3 class="text-center text-uppercase text-info"><i class="fa fa-folder-open" aria-hidden="true"></i> our services</h3>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12 first-service-part">
+            <img src="images/service.png" alt="" class="img-fluid">
+            <a href="">code</a>
+            <a href="">markup</a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12 second-service-part">
+            <div class="container-fluid d-flex justify-content-around align-items-center text-center text-uppercase">
+              <div class="testo">
+                <i class="fa fa-code text-success" aria-hidden="true"></i>
+                <h3 class="count text-success">3400</h3>
+                <p class="text-success">front-code</p>
+              </div>
+              <div class="testo">
+                <i class="fa fa-codepen text-primary" aria-hidden="true"></i>
+                <h3 class="count text-primary">1244</h3>
+                <p class="text-primary">back-code</p>
+              </div>
+              <div class="testo">
+                <i class="fa fa-free-code-camp text-info" aria-hidden="true"></i>
+                <h3 class="count text-info">1570</h3>
+                <p class="text-info">full-stack</p>
+              </div>
+            </div>
+            <p class="text-center text-capitalize text-info">I’m not trying to be boasty (intentional new word — trying it out), I’m just saying there is a structure that works for single-topic web articles. My hope is that it will help new writers take the leap as I did.
+
+              Credit for this structure goes to Crew and to Andrea Ayres Deets, who is an amazing writer and inspired me to write several years ago.
+             I submitted an article to the Crew Blog and Andrea replied with the loose and simple formula they use for structuring their posts — one that I still use today and the one I am about to show you now.</p>
+              <a href="">query</a>
+              <a href="">my sql</a>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!----services part end-->
+
+    <!----contact part start-->
+    <section class="contact" id="contactid">
+      <div class="container py-5">
+        <h3 class="text-center text-uppercase text-info"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> contact</h3>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-12">
+            <form action="/action_page.php">
+              <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" placeholder="Enter email" id="email">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+              </div>
+              <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="3" id="comment"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----contact part end-->
+
+      <!----about part start-->
+        <footer class="ftr-part" id="aboutid">
+          <div class="container py-5">
+            <h3 class="text-center text-uppercase text-info"><i class="fa fa-question-circle" aria-hidden="true"></i> about me</h3>
+            <p class="text-info text-center text-capitalize">Use Guest mode to sign in privately. Learn more.</p>
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-12">
+                <h4 class="text-center text-capitalize text-primary">aj_webkit</h4>
+                <p class="text-center text-primary">
+                  Good website writing is the key to beating these statistics. Well-written content that’s optimized for the web rises to the top of search results and holds readers’ attention.</p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12 snd-ftr">
+                <h4 class="text-center text-capitalize text-primary">navigation link</h4>
+                  <li><a href="">home</a></li>
+                  <li><a href="">service</a></li>
+                  <li><a href="">contact</a></li>
+                  <li><a href="">about</a></li>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12 snd-ftr">
+                <h4 class="text-center text-capitalize text-primary">newsletter</h4>
+                  <p class="text-center text-primary text-capitalize">my name is ankit jangir and i am a web deginer and devloper. when you speak directly to the audience (“You can do it”) it’s more engaging than saying “It can be done.”</p>
+              </div>
+            </div>
+            <p class="text-center text-capitalize text-dark">all right reversed @ 2020 this templet made by ankit</p>
+          </div>
+          <div class="scrolltop">
+            <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+          </div>
+        </footer>
+        <!----about part end-->
+    <script src="swiper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha256-w49DIDk8itgSjjuoof5lTxYKwcjWJ7Z2sRW3nU1StNA=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" integrity="sha256-wldfwyVJyA71oKe6Sba0fKZkaR6CMwtb0DnWcQs6N1Y=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Initialize Swiper -->
+  <script>
+      $ (".count").counterUp({                                                 
+      delay:100,
+      time:3000
+    })
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'cube',
+      grabCursor: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+
+    window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	theme: "light2",
+	title:{
+		text: "project devlopment"
+	},
+	axisY:{
+		includeZero: false
+	},
+	data: [{        
+		type: "line",
+      	indexLabelFontSize: 16,
+		dataPoints: [
+			{ y: 450 },
+			{ y: 414},
+			{ y: 520, indexLabel: "\u2191 highest",markerColor: "red", markerType: "triangle" },
+			{ y: 460 },
+			{ y: 450 },
+			{ y: 500 },
+			{ y: 480 },
+			{ y: 480 },
+			{ y: 410 , indexLabel: "\u2193 lowest",markerColor: "DarkSlateGrey", markerType: "cross" },
+			{ y: 500 },
+			{ y: 480 },
+			{ y: 510 }
+		]
+	}]
+});
+chart.render();
+
+}
+mybutton=document.getElementById("myBtn");
+
+window.onscroll=function() {
+  scrollFunction()
+};
+
+function scrollFunction(){
+  if(document.body.scrollTop>20 || document.documentElement.scrollTop>20){
+    mybutton.style.display="block";
+  }
+  else{
+    mybutton.style.display="none";
+  }
+}
+function topFunction(){
+  document.body.scrollTop=0;//for safari
+  document.documentElement.scrollTop=0;//for chrome,mozila,firefox,opera
+}
+
+
+ </script>
+    
+</body>
+</html>
